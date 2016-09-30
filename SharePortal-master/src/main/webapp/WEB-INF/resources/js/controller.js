@@ -1,6 +1,4 @@
-/**
- * Created by Le on 1/11/2016.
- */
+
 
 var cartApp = angular.module ("cartApp", []);
 
@@ -12,9 +10,9 @@ cartApp.controller("cartCtrl", function ($scope, $http){
         });
     };
 
-    $scope.clearCart = function () {
+   /* $scope.clearCart = function () {
         $http.delete('/eMusicStore/rest/cart/'+$scope.cartId).success($scope.refreshCart());
-    };
+    };*/
 
     $scope.initCartId = function (cartId) {
         $scope.cartId = cartId;

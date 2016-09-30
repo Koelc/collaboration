@@ -135,14 +135,14 @@ public class HomeController
 	        return "home";
 	    }
 
-		@RequestMapping("/chat")
+		/*@RequestMapping("/chat")
 		public String goToChat(HttpServletRequest request,Model model)
 		{
 			//System.out.println(chatseervice);
 			String name=request.getParameter("user");
 			model.addAttribute("name",name);
 			return "chat";
-		}
+		}*/
 		
 	}
 
